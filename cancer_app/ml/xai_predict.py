@@ -4,7 +4,8 @@
 # from tensorflow.keras.models import load_model # type: ignore
 # import matplotlib
 
-
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1" # Prevent TensorFlow from using GPU
 import cv2
 import numpy as np
 import tensorflow as tf
