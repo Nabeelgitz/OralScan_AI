@@ -121,6 +121,6 @@ CSRF_TRUSTED_ORIGINS = [
     'https://oralscan-ai.onrender.com'
 ]
 
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
