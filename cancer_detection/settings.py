@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-2dnu#8dal#h2m-z^2ewjf)c6(sn=eo!jcfqafdv$^@(ff&y@9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://oralscan-ai.onrender.com"]
 
 
 # Application definition
